@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Gagalin-Regular;
+    src: url("../fonts/Gagalin/Gagalin-Regular.otf");
+}
+@font-face {
+    font-family: Lifehack Medium;
+    src: url("../fonts/Lifehack Medium.otf");
+}
+@font-face {
+    font-family: "Ubuntu Light";
+    src: url("../fonts/Ubuntu/Ubuntu-Light.ttf");
+}
+body {
+    background-image: url("../icons/video-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    display: flex;
+    margin: 0 70px;
+    align-items: center;
+}
+
+.header__navi {
+    margin-left: auto;
+}
+
+.header__navi ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__navi li {
+    /* list-style-type: none; */ 
+    color: white;
+    margin-right: 30px;
+    font-family: "Ubuntu Light";
+}
+
+.header__navi li:first-child {
+    list-style-type: none;
+}
+
+.header__navi a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn input {
+    background-color: red;
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.first-page {
+    /* display: flex;
+     justify-content: flex-end;
+     margin: 0 20%;*/
+}
+
+.first-page__content {
+    display: flex;
+    justify-content: center;
+}
+
+.first-page__fonts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first-page__fonts div {
+    display: flex;
+}
+
+/*.first-page__fonts span {
+    margin: auto;
+}
+*/
+/*.first-screen {
+    display: flex;
+    align-items: flex-end;
+}*/
+
+.font-gagalin {
+    font-family: Gagalin-Regular;
+    color: #f9b43b;
+    text-transform: uppercase;
+    font-size: 85px;
+    height: auto;
+}
+
+.font-lifehack {
+    font-family: Lifehack Medium;
+    color: white;
+    font-size: 72px;
+}
+
+.breadcrumb {
+    height: 150px;
+    margin-right: 0;
+    display: flex;
+    align-items: stretch;
+}
+
+.breadcrumb li {
+    /*color: white;*/
+    list-style: none;
+    border: solid 3px white;
+    border-radius: 10px;
+    margin: 150% 0;
+    /*position: absolute;*/
+}
+
+.arrow-scroll {
+    height: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+    /*display: flex;
+    justify-content: flex-end;*/
+
+}
