@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+        list-style-type: none;
+    }
+}
+
+.nav__items {
+    display: flex;
+    
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+  }

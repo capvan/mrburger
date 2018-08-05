@@ -1,3 +1,15 @@
 .hero {
-  background: url("../../icons/video-bg.jpg");
+  background: url("../icons/video-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__container {
+  justify-content: initial;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

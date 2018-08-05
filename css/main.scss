@@ -5,10 +5,16 @@ $black: #2f3234;
 $red: #e35028;
 
 //normalize
-@import url("css/_misc/normalize.scss");
+// @import "css/_misc/normalize.scss";
+@import "_misc/normalize.scss";
 
 //setup
-@import url("css/_misc/layout.scss");
+@import "_misc/layout.scss";
 
 //components
-@import url("blocks/hero.scss");
+@import "blocks/hero.scss";
+
+//component_logo
+// @import "blocks/logo.scss";
+//component header navigation
+@import "blocks/nav.scss";
