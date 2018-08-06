@@ -12,8 +12,10 @@ $red: #e35028;
 @import "_misc/layout.scss";
 @import "_misc/fonts.scss";
 
+
 //components
 @import "blocks/hero.scss";
+@import "blocks/title.scss";
 
 //component_logo
 // @import "blocks/logo.scss";
@@ -21,6 +23,4 @@ $red: #e35028;
 //component header navigation
 @import "blocks/nav.scss";
 
-//title
-@import "blocks/title.scss";
 
