@@ -1,22 +1,21 @@
 .nav {
     display: flex;
     //justify-content: space-between;
-    align-items: center;
+    /*align-items: center;
     li {
         list-style-type: none;
-    }
+    }*/
 }
 
 .nav__items {
     display: flex;
-
-}
-
-.nav__link {
-    color: #fff;
-    text-decoration: none;
-    display: flex;
     align-items: center;
+    
+    &:first-child {
+        &:before {
+            display: none;
+        }
+    }
 
     &:before {
         content: "";
@@ -27,8 +26,12 @@
         background: #fff;
         margin: 0 16px;
     }
+}
 
-    li:first-child {
-        list-style-type: none;
-    }
-  }
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}

@@ -13,3 +13,23 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.header__buttons {
+  display: flex;
+}
+
+.btn {
+  padding: 9px 16px;
+  border-radius: 7px;
+  background-color: $red;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.title {
+  font-family: "Gagalin-Regular";
+  font-size: 72px;
+  color: black;
+  margin-bottom: 45px;
+}
