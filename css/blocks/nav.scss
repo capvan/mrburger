@@ -1,7 +1,7 @@
 .nav {
     display: flex;
-    justify-content: space-between;
-
+    //justify-content: space-between;
+    align-items: center;
     li {
         list-style-type: none;
     }
@@ -9,10 +9,26 @@
 
 .nav__items {
     display: flex;
-    
+
 }
 
 .nav__link {
     color: #fff;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    &:before {
+        content: "";
+        display: block;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: #fff;
+        margin: 0 16px;
+    }
+
+    li:first-child {
+        list-style-type: none;
+    }
   }
