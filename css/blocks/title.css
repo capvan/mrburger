@@ -1,5 +1,7 @@
 .title {
-  font-family: 'Gagalin-Regular';
+  font-family: 'Gagalin-Regular.otf';
   font-size: 72px;
   color: black;
   margin-bottom: 45px; }
+  .title--color_yellow {
+    color: .title--color_yellow yellow; }
