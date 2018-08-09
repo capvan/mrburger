@@ -470,7 +470,7 @@ footer {
 .best__title {
   font-family: "Lifehack Medium"; }
 
-.best__title:nth-child(3) {
+.best__title:last-child {
   width: 25%; }
 
 .nav {
