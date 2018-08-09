@@ -1,0 +1,27 @@
+.best {
+  background: url("../icons/bg.png") center center / cover no-repeat;
+}
+
+.best__list {
+  display: flex;
+  align-items: flex-start;
+}
+
+.best__item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.best__content {
+  text-align: center;
+}
+
+.best__title {
+  font-family: "Lifehack Medium";
+}
+
+.best__title:nth-child(3) {
+  width: 25%;
+}
