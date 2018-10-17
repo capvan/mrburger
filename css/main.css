@@ -473,6 +473,20 @@ footer {
 .best__title:last-child {
   width: 25%; }
 
+.reviews__list {
+  background: #2f3234;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.reviews__item {
+  height: 50%;
+  width: 25%;
+  background-image: url("/icons/reviews1.png"); }
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -1,0 +1,12 @@
+.reviews__list {
+  background: $black;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reviews__item {
+  height: 50%;
+  width: 25%;
+  /*background-image: url("/icons/reviews1.png");*/
+}
